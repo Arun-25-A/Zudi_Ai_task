@@ -1,0 +1,205 @@
+
+.mainloginscreen {
+  height: auto;
+  background: #ffffff;
+  .innersections {
+    width: 440px;
+    margin: 40px auto;
+    transition: opacity 250ms ease-in-out;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px rgba(255, 255, 255, 0.03) solid;
+    border-radius: 6px;
+    padding: 45px 35px;
+    position: relative;
+    h4 {
+      font-size: 24px;
+      font-family: "interbold";
+      color: #fff;
+      margin: 2rem 0 1rem;
+      text-align: center;
+    }
+    label {
+      width: 100%;
+      color: #bababa;
+      font-family: "intermedium";
+    }
+    input {
+      width: 100%;
+      border-radius: 6px;
+      border: 0;
+      margin: 0 0 1.5rem;
+      background: transparent;
+      border: 1px rgba(255, 255, 255, 0.2) solid;
+      background: rgba(255, 255, 255, 0.04);
+      line-height: 20px;
+      padding: 13px 15px;
+      color: #fff;
+      &:focus {
+        outline: 0;
+      }
+    }
+    img {
+      display: flex;
+      margin: 0 auto;
+      width: 260px;
+    }
+    .btnSignin {
+      width: 100%;
+      font-size: 20px;
+      padding: 12px;
+      margin: 1rem 0 0;
+    }
+    .showClear {
+      position: absolute;
+      font-size: 20px;
+      margin: 0.85rem 0rem 0 -2rem;
+      color: #bababa;
+    }
+    .loginpass {
+      position: absolute;
+      font-size: 20px;
+      margin: -4rem 0rem 0 23rem;
+      color: #bababa;
+      cursor: pointer;
+    }
+  }
+}
+
+.errorText {
+  color: #ff0000b8;
+  position: relative;
+  top: -16px;
+  font-family: "intermedium";
+}
+
+
+.loginheader {
+  border-bottom: 1px solid  #e2e2e2;
+  .headerview {
+    padding: 18px 0;
+    .logotext {
+      font-size: 12px;
+      color: #828385;
+      margin-left: 2.5rem;
+      padding-top: -5px;
+    }
+  }
+}
+.logincenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80vh;
+ 
+  img {
+    width: 100%;
+  }
+  .loginright {
+    width: 448px;
+    margin: 0;
+    transition: opacity 250ms ease-in-out;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px rgba(255, 255, 255, 0.03) solid;
+    border-radius: 6px;
+    padding: 0;
+    position: relative;
+   
+    h4 {
+      color: #000;
+      margin: 0 0 8px;
+      font-size: 26px;
+    }
+    p {
+      margin-bottom: 16px !important;
+      text-align: center;
+      color: #828385;
+      line-height: 20px;
+      font-size: 14px;
+      margin: 0 14%;
+    }
+    input {
+      background-color: #EDEFF0;
+      box-shadow: none;
+      color: #000000;
+      height: 16px;
+      margin: 0 0 30px;
+      &.active {
+        border-color: #000000;
+      }
+      &:focus {
+        border-color: #00E2A4;
+      }
+      &::placeholder {
+        color: #828385;
+      }
+    }
+    label {
+      color: #161717;
+      font-size: 14px;
+    }
+    .loginpass {
+      color: #808080;
+    }
+    .showClear {
+      color: #808080;
+    }
+    .btnSignin {
+      background-color: #00E2A4;
+      color: #000000;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-family: 'intersemibold';
+      max-width: 384px;
+      margin-top: 42px;
+      height: 43px;
+      cursor: pointer;
+      span {
+        font-size: 17px;
+      }
+    }
+    .errorText {
+      height: 10px;
+      margin: 0;
+      text-align: left;
+      color: rgba(255, 0, 0, 0.7215686275);
+      top: 5px;
+      &.invaliderrorText {
+        top: -27px;
+      }
+    }
+  }
+  .loginborder {
+    border: 1px solid #888888;
+    padding: 42px 32px 72px;
+    border: 0.5px solid #E3E4E5;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    max-height: 394px;
+  }
+}
+
+ .emailinput {
+          color: #0c66ff;
+          width: 100%;
+          height: 42px;
+          border: none;
+          outline: none;
+          margin-bottom: 0;
+          box-shadow: 0 0 0 1px #d1d5db !important;
+          border-radius: 6px;
+          padding: 8px 10px 8px 14px;
+          font-size: 13px;
+          color: #1f2937;
+          font-family: "interregular";
+          margin-bottom: 35px;
+          background-color: #5242a20a;
+          &:hover {
+            border-color: #d1d5db !important;
+            border: 0px solid #d1d5db;
+          }
+          &:focus {
+            box-shadow: 0 0 0 2px #8ec3f8 !important;
+          }
+        }
